@@ -1,0 +1,122 @@
+DEL ARCHIVO JSON A XML:
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<series>
+    <serie completada = "true">
+        <titulo>Breaking Bad</titulo>
+        <temporada>5</temporada>
+        <generos>
+            <genero>crimen</genero>
+            <genero>drama</genero>
+            <genero>thriller</genero>
+        </generos>
+        <actores>
+            <actor>
+                <nombre>Bryan Cranston</nombre>
+                <rol>Walter White</rol>
+            </actor>
+            <actor>
+                <nombre>Aaron Paul</nombre>
+                <rol>Jesse Pinkman</rol>
+            </actor>
+        </actores>
+        <puntuaciones>
+            <imdb>9.5</imdb>
+            <rotten_tomatoes>96</rotten_tomatoes>
+        </puntuaciones>
+    </serie>
+    <serie completada = "false">
+        <titulo>Stranger Things</titulo>
+        <temporada>4</temporada>
+        <generos>
+            <genero>ciencia ficcion</genero>
+            <genero>drama</genero>
+            <genero>horror</genero>
+        </generos>
+        <actores>
+            <actor>
+                <nombre>Millie Bobby Brown</nombre>
+                <rol>Eleven</rol>
+            </actor>
+            <actor>
+                <nombre>"Finn Wolfhard</nombre>
+                <rol>Mike Wheeler</rol>
+            </actor>
+        </actores>
+        <puntuaciones>
+            <imdb>8.7</imdb>
+            <rotten_tomatoes>93</rotten_tomatoes>
+        </puntuaciones>
+    </serie>
+</series>
+
+DEL ARCHIVO XML A JSON:
+
+{
+    "cartelera" : [
+            {
+            "titulo": "Inception",
+            "director": "Christopher Nolan",
+            "duracion": 148,
+            "idioma": "ingles",
+            "reparto":{
+                "actor_1":{
+                    "nombre": "Leonardo DiCaprio",
+                    "personaje": "Dom Cobb",
+                    "protagonista": "True"
+                    },
+                "actor_2":{
+                    "nombre": "Joseph Gordon-Levitt",
+                    "personaje": "Arthur",
+                    "protagonista": "False"
+                    }
+                    },
+            "premios":[
+                "Oscar als millors efectes visuals",
+                ">Oscar al millor so"
+                    ],
+            "fotos":{
+                "foto_1":{
+                    "nombre": "inception_poster.jpg",
+                    "tipo": "cartell"
+                },
+                "foto_2":{
+                    "nombre": "inception_scene1.jpg",
+                    "tipo": "escena"
+                }
+                    }
+            },
+            {
+            "titulo": "La dolce vita",
+            "director": "Federico Fellini",
+            "duracion": 174,
+            "idioma": "italiano",
+            "reparto":{
+                "actor_1":{
+                    "nombre": "Marcello Mastroianni",
+                    "personaje": "Marcello Rubini",
+                    "protagonista": "True"
+                    },
+                "actor_2":{
+                    "nombre": "Anita Ekberg",
+                    "personaje": "Silvia",
+                    "protagonista": "False"
+                    }
+                    },
+            "premios":[
+                "Palma d'Or al Festival de Cannes"
+                    ],
+            "fotos":{
+                "foto_1":{
+                    "nombre": "ladolcevita_poster.jpg",
+                    "tipo": "cartell"
+                },
+                "foto_2":{
+                    "nombre": "ladolcevita_scene1.jpg",
+                    "tipo": "escena"
+                }
+                    }
+            }
+                    ]
+}
