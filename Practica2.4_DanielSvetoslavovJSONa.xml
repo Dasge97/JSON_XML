@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<series>
+    <serie completada = "true">
+        <titulo>Breaking Bad</titulo>
+        <temporada>5</temporada>
+        <generos>
+            <genero>crimen</genero>
+            <genero>drama</genero>
+            <genero>thriller</genero>
+        </generos>
+        <actores>
+            <actor>
+                <nombre>Bryan Cranston</nombre>
+                <rol>Walter White</rol>
+            </actor>
+            <actor>
+                <nombre>Aaron Paul</nombre>
+                <rol>Jesse Pinkman</rol>
+            </actor>
+        </actores>
+        <puntuaciones>
+            <imdb>9.5</imdb>
+            <rotten_tomatoes>96</rotten_tomatoes>
+        </puntuaciones>
+    </serie>
+    <serie completada = "false">
+        <titulo>Stranger Things</titulo>
+        <temporada>4</temporada>
+        <generos>
+            <genero>ciencia ficcion</genero>
+            <genero>drama</genero>
+            <genero>horror</genero>
+        </generos>
+        <actores>
+            <actor>
+                <nombre>Millie Bobby Brown</nombre>
+                <rol>Eleven</rol>
+            </actor>
+            <actor>
+                <nombre>"Finn Wolfhard</nombre>
+                <rol>Mike Wheeler</rol>
+            </actor>
+        </actores>
+        <puntuaciones>
+            <imdb>8.7</imdb>
+            <rotten_tomatoes>93</rotten_tomatoes>
+        </puntuaciones>
+    </serie>
+</series>
